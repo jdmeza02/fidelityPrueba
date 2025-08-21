@@ -1,0 +1,163 @@
+
+
+
+
+@media (max-width: 1200px) {
+      .boxImg{
+            height: 300px;
+            overflow: hidden;
+      }
+}
+
+@media (max-width: 992px) {
+      .boxImg{
+            height: 200px;
+            overflow: hidden;
+      }
+      h2 {
+            font-size: 16px;
+      }
+      h3{
+            font-size: 18px;
+      }
+
+      .legales {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+      }
+
+      .legales p{
+            font-size: 12px;
+            margin-top: 0px;
+      }
+
+      .textContacto {
+            color: #fff;
+            font-size: 12px;
+      }
+
+      .iconRed{
+            width: 20px;
+            fill: #fff !important;
+            padding: 5px;
+            }
+
+      .iconRed:hover{
+            background: #fff;
+            fill: #f08300 !important;
+            padding: 5px;
+            transition: 500ms;
+            width: 20px;
+            border-radius: 999px;
+            box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.50);
+            -webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.5);
+            -moz-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.5);
+      }
+
+      
+}
+
+@media (max-width: 768px) {
+      h1 {
+            font-family: "Montserrat-bold", sans-serif;
+            font-size: 28px;
+      }
+      .section{
+            margin: 20px 0px;
+      }
+
+      .titulo {
+            display: flex;
+            margin: 15px 0px;
+            width: 100%;
+            text-align: center;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+      }
+}
+
+@media (max-width: 576px) {
+      .contenCard {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: space-between;
+            padding: 0px 20px;
+            margin: 0 auto;
+            align-items: center;
+      }
+      .card {
+            width: 100%;
+            display: block;
+            background: #fff;
+            padding: 0px;
+            border-radius: 20px;
+            position: relative;
+      }
+      .boxImg {
+            height: 500px;
+            overflow: hidden;
+      }
+      .pie {
+            display: flex;
+            padding: 20px 0px;
+            justify-content: space-between;
+            flex-direction: column;
+            align-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+      }
+}
+
+@media (max-width: 426px) {
+      .boxImg {
+            height: 330px;
+            overflow: hidden;
+      }
+
+      .legales {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            flex-wrap: wrap;
+      }
+
+      .legales p::after{
+            display: none;
+      }
+      .legales p{
+            text-align: center;
+      }
+
+      .contacto {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-content: center;
+      }
+
+      .contacto p{
+            text-align: center;
+      }
+
+      h1 {
+            font-family: "Montserrat-bold", sans-serif;
+            font-size: 24px;
+      }
+
+      .swiper-pagination{
+            display: none;
+      }
+      
+}
+

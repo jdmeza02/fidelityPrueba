@@ -1,0 +1,336 @@
+/* Fuentes */
+
+@font-face {
+  font-family: 'Montserrat-bold';
+  src: url('../fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-ExtraBold';
+  src: url('../fonts/Montserrat-ExtraBold.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Italic';
+  src: url('../fonts/Montserrat-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Light';
+  src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('../fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-SemiBold';
+  src: url('../fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+body{
+      margin: 0 auto;
+      font-family: Montserrat;
+      background: #f2f2f2;
+}
+
+/* Slider */
+
+.swiper {
+  width: 100%;
+  /* height: 300px; */
+  padding: 50px;
+}
+
+.swiper img{
+  width: 100%;
+}
+
+.swiper-pagination-bullet{
+      width: 70px !important;
+      border-radius: 0px !important;
+      height: 5px !important;
+}
+
+:root {
+    --swiper-navigation-size: 24px !important;
+}
+
+
+h1{
+      font-family: "Montserrat-bold", sans-serif;
+      font-size: 40px;
+}
+
+h2{
+     font-family: "Montserrat-regular", sans-serif;
+      font-size: 22px; 
+}
+
+h3{
+     font-family: "Montserrat-ExtraBold", sans-serif;
+      font-size: 22px; 
+}
+
+p{
+      margin-bottom: 0px;
+      margin-top: 5px;
+      font-family: "Montserrat-regular", sans-serif;
+
+}
+
+a{
+      text-decoration: none;
+      color: #fff;
+}
+
+a:hover{
+      text-decoration: none;
+      color: #00ccff;
+}
+
+
+/* Principales */
+
+header nav{
+      display: flex;
+}
+
+header nav img{
+      width: 100%;
+      margin-bottom: 0px;
+      display: inline;
+}
+
+.section{
+      margin: 50px 0px;
+}
+
+.contenedor{
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    /* Anchos máximos según el tamaño de pantalla  similares a bootstrap*/
+    @media (min-width: 576px) {
+      .contenedor{
+        max-width: 540px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .contenedor{
+        max-width: 720px;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .contenedor{
+        max-width: 960px;
+      }
+    }
+
+    @media (min-width: 1200px) {
+      .contenedor{
+        max-width: 1140px;
+      }
+    }
+
+    @media (min-width: 1400px) {
+      .contenedor{
+        max-width: 1320px;
+      }
+    }
+
+.fila{
+      width: 100%;
+      display: block;
+}
+
+.titulo{
+      display: flex;
+      margin: 30px 0px;
+      width: 100%;
+      text-align: center;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+}
+
+.contenCard{
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+}
+
+.card{
+            width: 33.33%;
+            display: block;
+            background: #fff;
+            padding: 20px;
+            border-radius: 20px;
+            position: relative;
+      }
+
+.boxImg{
+      margin: 15px auto;
+      width: 100%;
+      height: 350px;
+      overflow: hidden;
+      border-radius: 15px;
+}
+
+.card:hover{
+      box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.50);
+      -webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.5);
+      -moz-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.5);
+      zoom: 1;
+}
+
+.card:hover .overlay{
+      opacity: 1;
+}
+
+.boxImg img{
+      width: 100%;
+}
+
+.descripciion{
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      max-width: 250px;
+}
+
+.overlay{
+      position: absolute;
+      width: 100%;
+      background: rgba(255,255,255,0.57);
+      left: 0;
+      height: 100%;
+      top: 0;
+      border-radius: 20px;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+      
+}
+
+.buttonPrimario{
+      background: #f08300;
+      font-size: 20px;
+      font-weight: 700;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: 15px 20px;
+      height: 65px;
+      cursor: pointer;
+}
+
+.buttonPrimario:hover{
+      background: #fff;
+      border: solid 2px #f08300;
+      box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.50);
+      -webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.5);
+      -moz-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.5);
+      transition: 500ms;
+      color: #f08300;
+      cursor: pointer;
+}
+
+footer{
+      background: #EC1C24;
+}
+
+.pie{
+      display: flex;
+      padding: 20px 0px;
+      justify-content: space-between;
+}
+
+
+.contacto{
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: nowrap;
+}
+
+.icon {
+      width: 20px;
+      fill: #fff !important;
+    }
+
+.textContacto{
+      color: #fff;
+      font-size: 14px;
+}
+
+.legales{
+      display: flex;
+      align-items: center;
+      gap: 30px;
+}
+
+.legales p{
+      color: #fff;
+}
+
+.legales p::after{
+      content: "|";
+      margin-left: 20px;
+}
+
+.iconRedes{
+      display: flex;
+      align-items: center;
+}
+
+.iconRed{
+      width: 20px;
+      fill: #fff !important;
+      padding: 10px;
+}
+
+.iconRed:hover{
+      background: #fff;
+      fill: #f08300 !important;
+      padding: 10px;
+      transition: 500ms;
+      width: 20px;
+      border-radius: 999px;
+      box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.50);
+      -webkit-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.5);
+      -moz-box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.5);
+}
