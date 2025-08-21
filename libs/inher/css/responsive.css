@@ -161,3 +161,34 @@
       
 }
 
+
+/* Anchos máximos según el tamaño de pantalla  similares a bootstrap*/
+@media (min-width: 576px) {
+      .contenedor{
+            max-width: 540px;
+      }
+}
+
+@media (min-width: 768px) {
+      .contenedor{
+            max-width: 720px;
+      }
+}
+
+@media (min-width: 992px) {
+      .contenedor{
+            max-width: 960px;
+      }
+}
+
+@media (min-width: 1200px) {
+      .contenedor{
+            max-width: 1140px;
+      }
+}
+
+@media (min-width: 1400px) {
+      .contenedor{
+            max-width: 1320px;
+      }
+}
